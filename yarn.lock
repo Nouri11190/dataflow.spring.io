@@ -8687,20 +8687,20 @@ gatsby-remark-grid-tables@0.0.3:
     babel-runtime "^6.26.0"
     remark-grid-tables "^1.2.0"
 
-gatsby-remark-images@3.2.2:
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-images/-/gatsby-remark-images-3.2.2.tgz#0b79255af0734d38966ff34461f111adc0a2b5dc"
-  integrity sha512-hHUjKlcy8jP3ah5MUNrrMmL6kYUljnX23z8RA9KyrbyL6D923L/b07Z19kGoaQ5nNOVOrmYnpFZCrvsnFi7h8A==
+gatsby-remark-images@3.11.1:
+  version "3.11.1"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-images/-/gatsby-remark-images-3.11.1.tgz#41bff97bb412582ce01479d807d79f90a06ff382"
+  integrity sha512-fOcJXoD7X828iDLo7djOqvHeD+RJgN9FPNbayRPpHGlHJBqB5dwpmnYUy0c/dqjMEeciCgBU7xbzGm8P53Nv9g==
   dependencies:
-    "@babel/runtime" "^7.8.7"
-    chalk "^2.4.2"
+    "@babel/runtime" "^7.12.5"
+    chalk "^4.1.0"
     cheerio "^1.0.0-rc.3"
-    gatsby-core-utils "^1.1.1"
+    gatsby-core-utils "^1.10.1"
     is-relative-url "^3.0.0"
-    lodash "^4.17.15"
+    lodash "^4.17.20"
     mdast-util-definitions "^1.2.5"
-    potrace "^2.1.5"
-    query-string "^6.11.1"
+    potrace "^2.1.8"
+    query-string "^6.13.3"
     unist-util-select "^1.5.0"
     unist-util-visit-parents "^2.1.2"
 
@@ -14997,7 +14997,7 @@ postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.26, postcss@^7.0.27, postcss@^7.0.3
     picocolors "^0.2.1"
     source-map "^0.6.1"
 
-potrace@^2.1.5:
+potrace@^2.1.5, potrace@^2.1.8:
   version "2.1.8"
   resolved "https://registry.yarnpkg.com/potrace/-/potrace-2.1.8.tgz#50f6fba92e1e39ddef6f979b0a0f841809e0acf2"
   integrity sha512-V9hI7UMJyEhNZjM8CbZaP/804ZRLgzWkCS9OOYnEZkszzj3zKR/erRdj0uFMcN3pp6x4B+AIZebmkQgGRinG/g==
@@ -15333,7 +15333,7 @@ query-string@^5.0.1:
     object-assign "^4.1.0"
     strict-uri-encode "^1.0.0"
 
-query-string@^6.11.1, query-string@^6.13.1, query-string@^6.13.8:
+query-string@^6.13.1, query-string@^6.13.3, query-string@^6.13.8:
   version "6.14.1"
   resolved "https://registry.yarnpkg.com/query-string/-/query-string-6.14.1.tgz#7ac2dca46da7f309449ba0f86b1fd28255b0c86a"
   integrity sha512-XDxAeVmpfu1/6IjyT/gXHOl+S0vQ9owggJ30hhWKdHAsNPOcasn5o9BW0eejZqL2e4vMjhAxoW3jVHcD6mbcYw==
